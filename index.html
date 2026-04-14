@@ -13,7 +13,7 @@
         
         body {
             font-family: 'Arial', sans-serif;
-            background: linear-gradient(90deg, #3a3a3a 0%, #5a5a5a 50%, #3a3a3a 100%);
+            background: linear-gradient(90deg, #171515 0%, #5a5a5a 50%, #171515 100%);
             color: white;
             min-height: 100vh;
         }
@@ -171,12 +171,12 @@
         }
 
         /* ANIMAÇÃO PISCANTE AZUL ESCURO */
-        @keyframes pulsoLaranja {
+        @keyframes pulsoVermelho {
             0% { border-color: rgba(138, 43, 226, 0.2); box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
-            50% { border-color: #FF8C00; box-shadow: 0 0 20px #FF4500, 0 0 40px #FFD700; }
+            50% { border-color: #ff0000; box-shadow: 0 0 20px #FF4500, 0 0 40px #ff0000; }
             100% { border-color: rgba(138, 43, 226, 0.2); box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
         }
-        .piscando { animation: pulsoLaranja 2.5s infinite; }
+        .piscando { animation: pulsoVermelho 2.5s infinite; }
 
         @media (max-width: 768px) {
             .gallery { grid-template-columns: 1fr; }
@@ -191,7 +191,9 @@
             <img src="https://i.postimg.cc/kGgqWLWs/IMG-20260412-WA0074.jpg" class="profile-pic">
             <div class="profile-info">
                 <div class="name">Boyzs</div>
-                <div class="header-description">Seu namorado, conteúdo adulto real, e personalizados</div>
+                <div class="header-description">Conteúdo adulto + conexão real
+Personalizado, ao vivo e sem limites de atenção
+Só pra quem quer algo diferente 😈🔥</div>
             </div>
         </div>
     </div>
@@ -204,6 +206,10 @@
         <div class="logo-item" onclick="window.open('https://t.me/Boyzsbot', '_blank')">
             <div class="logo-icon telegram-vip"><i class="fab fa-telegram"></i></div>
             <div class="logo-name">TeleVIP</div>
+        </div>
+        <div class="logo-item" onclick="window.open('https://t.me/Boyzsbot', '_blank')">
+            <div class="logo-icon telegram-vip"><i class="fab fa-telegram"></i></div>
+            <div class="logo-name">TeleFree</div>
         </div>
         <div class="logo-item" onclick="window.open('https://api.whatsapp.com/send?phone=5511978880011', '_blank')">
             <div class="logo-icon whatsapp"><i class="fab fa-whatsapp"></i></div>
@@ -222,7 +228,10 @@
     <div class="gallery">
         <div class="photo-card piscando">
             <div class="photo-container">
-                <a href="https://privacy.com.br/checkout/boyzaozs_" target="_blank"><img src="https://i.postimg.cc/Zq11zwj7/IMG_20260412_WA0012.jpg"></a>
+                <a href="https://privacy.com.br/checkout/boyzaozs_" target="_blank"><img src="https://i.postimg.cc/Zq11zwj7/IMG_20260412_WA0012.jpg"
+                    alt="Privacy"
+                        style="object-position: center 20%;"
+                ></a>
                 <div class="photo-logo privacy"><img src="https://i.imgur.com/3eyn7gr.png"></div>
                 <div class="platform-name">Assine meu Privacy</div>
             </div>
@@ -233,6 +242,17 @@
                 <a href="https://t.me/Boyzsbot" target="_blank"><img src="https://i.postimg.cc/SsCHSctV/IMG_20260412_WA0015.jpg"></a>
                 <div class="photo-logo telegram-vip"><i class="fab fa-telegram"></i></div>
                 <div class="platform-name">Telegram VIP</div>
+            </div>
+        </div>
+        
+        <div class="photo-card">
+            <div class="photo-container">
+                <a href="https://t.me/+fANUYnHIlUIyNWQx" target="_blank"><img src="https://i.postimg.cc/LsVjR2rY/IMG-20260413-WA0441.jpg"
+                    alt="telegram"
+                        style="object-position: center 1%;"
+                ></a>
+                <div class="photo-logo telegram-vip"><i class="fab fa-telegram"></i></div>
+                <div class="platform-name">Telegram FREE</div>
             </div>
         </div>
 
@@ -249,7 +269,7 @@
                 <a href="https://www.instagram.com/boyzaozs_10?igsh=MWE2M2RoYnMyNXA4ag%3D%3D&utm_source=qr" target="_blank"><img src="https://i.postimg.cc/pXFqfvHL/IMG_20260412_WA0184.jpg"
                     alt="Instagram"
                         style="object-position: center 10%;">
-                ></a>
+                </a>
                 <div class="photo-logo instagram"><i class="fab fa-instagram"></i></div>
                 <div class="platform-name">Instagram</div>
             </div>
